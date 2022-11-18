@@ -11,17 +11,17 @@ pipeline{
             //     args 'infinity'
             // }
             yaml '''
-apiVersion: v1
-kind: Pod
-spec:
-  containers:
-  - name: shell
-    image: chikitor/jenkins-nodo-nodejs-bootcamp:1.0
-    command:
-    - sleep
-    args:
-    - infinity
-'''
+            apiVersion: v1
+            kind: Pod
+            spec:
+            containers:
+            - name: shell
+            image: chikitor/jenkins-nodo-nodejs-bootcamp:1.0
+            command:
+            - sleep
+            args:
+            - infinity
+            '''
             // Can also wrap individual steps:
             // container('shell') {
             //     sh 'hostname'
