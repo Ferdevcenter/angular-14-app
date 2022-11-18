@@ -16,7 +16,7 @@ kind: Pod
 spec:
   containers:
   - name: shell
-    image: alledovalero/jenkins-nodo-nodejs-bootcamp:1.0
+    image: chikitor/jenkins-nodo-nodejs-bootcamp:1.0
     command:
     - sleep
     args:
