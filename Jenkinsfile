@@ -7,7 +7,7 @@ pipeline{
   }
 
   environment {
-    registryCredential='docker-hub-credentials'
+    registryCredential='docker-hub-angular'
     registryFrontend = 'chikitor/frontend-demo'
   }
 
