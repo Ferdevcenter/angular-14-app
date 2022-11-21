@@ -41,7 +41,7 @@ spec:
     }
 
   environment {
-    registryCredential='docker-hub-angular'
+    registryCredential='DockerId'
     registryFrontend = 'chikitor/frontend-demo'
   }
 
